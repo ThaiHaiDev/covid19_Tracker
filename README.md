@@ -1,3 +1,29 @@
+- Link App: https://dashing-druid-00160c.netlify.app/
+
+- Install commands: 
+
+      + npm install --save axios highcharts highcharts-react-official lodash moment @highcharts/map-collection @fontsource/roboto
+
+      + npm install @material-ui/core@next
+ 
+axios: tương tác với API 
+
+highcharts: biểu đồ
+
+highcharts-react-official: dùng highcharts trong react
+
+@highcharts/map-collection: lấy data về bản đồ
+
+- Lưu ý:
+
+Trong quá trình thực hiện, nếu gặp phải lỗi 'nodejs heap out of memory' thì thực hiện lệnh:
+
+      + npm install -all
+      
+      + npm audit fix
+
+- Refer: HoleTex. Thanks you.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
